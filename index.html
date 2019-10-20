@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Star Wars Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Reset style sheet -->
+    <link href="assets/css/reset.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Trivia Game CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <!-- <img src='assets/images/sithJediHeader.jpg' alt='headerImg' width='100%'> -->
+    </header> 
+    <div class='container'>
+            
+            <!-- Question page -->
+        <div class="QA-page">
+            <button class='btn btn-primary' id='startBtn'>Start</button>
+            <div id=timeLeft></div>
+            <div id=currentQuestion></div>
+            <div class='question'></div>
+            <div class='answerList'></div>
+            <!-- Answer Page -->
+            <div id=message></div>
+            <div id=correctedAnswer></div>
+            <div id=jpg></div>
+            <!-- Scoreboard -->
+            <div id=finalMessage></div>
+            <div id=correctAnswers></div>
+            <div id=incorrectAnswers></div>
+            <div id=unanswered></div>
+            <div id='startOverBtn'></div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
